@@ -38,7 +38,7 @@ def realtime_face_recognition():
                 print("Face not detected")
                 pass
         # Display the resulting frame
-        cv2.namedWindow('frame', cv2.WINDOW_NORMAqwL)
+        cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
         cv2.resizeWindow('frame', 960, 720)
         cv2.imshow('frame', frame)
 
