@@ -15,7 +15,9 @@ def realtime_face_recognition():
     while True:
         # Capture the video frame by frame
         ret, frame = vid.read()
-
+        if not ret:
+            print("Error: Unable to capture video frame")
+            break
         # Perform face recognition on the captured frame
         # Find faces and identify people using a specific model and distance metric
         people = DeepFace.find(img_path=frame, db_path="Data/", model_name=models[2], distance_metric=metrics[2], enforce_detection=False)
@@ -39,7 +41,7 @@ def realtime_face_recognition():
                 pass
         # Display the resulting frame
         cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
-        cv2.resizeWindow('frame', 960, 720)
+        cv2.resizeWindow('frame', 640, 480)
         cv2.imshow('frame', frame)
 
         # Check if the 'q' button is pressed to quit the program
