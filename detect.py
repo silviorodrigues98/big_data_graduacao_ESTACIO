@@ -1,6 +1,4 @@
 from deepface import DeepFace
-import matplotlib.pyplot as plt
-import numpy as np
 import cv2
 
 # List of available backends, models, and distance metrics
@@ -18,10 +16,15 @@ def realtime_face_recognition():
         if not ret:
             print("Error: Unable to capture video frame")
             break
-        # Perform face recognition on the captured frame
         # Find faces and identify people using a specific model and distance metric
-        people = DeepFace.find(img_path=frame, db_path="Data/", model_name=models[2], distance_metric=metrics[2], enforce_detection=False)
-
+        try:
+            people = DeepFace.find(img_path=frame, db_path="Data/", model_name=models[2], distance_metric=metrics[2], enforce_detection=False)
+        except:
+            print("Error: Unable to open the database")
+            break
+        if(len(people) == 0):
+            print("Error: No faces detected in the database")
+            break
         for person in people:
             try:
                 # Retrieve the coordinates of the face bounding box
@@ -37,7 +40,7 @@ def realtime_face_recognition():
                 name = person['identity'][0].split('/')[1]
                 cv2.putText(frame, name, (x, y), cv2.FONT_ITALIC, 1, (0, 0, 255), 2)
             except:
-                print("Face not detected")
+                print("Face not detected in the frame")
                 pass
         # Display the resulting frame
         cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
@@ -45,7 +48,7 @@ def realtime_face_recognition():
         cv2.imshow('frame', frame)
 
         # Check if the 'q' button is pressed to quit the program
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(100) & 0xFF == ord('q'):
             break
 
     # Release the video capture object and close all windows
