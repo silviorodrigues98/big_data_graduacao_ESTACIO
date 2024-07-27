@@ -1,37 +1,54 @@
+from deepface import DeepFace
+import matplotlib.pyplot as plt
+import numpy as np
 import cv2
 
-# Carrega o modelo pré-treinado de detecção de faces
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+# List of available backends, models, and distance metrics
+backends = ["opencv", "ssd", "dlib", "mtcnn", "retinaface"]
+models = ["VGG-Face", "Facenet", "Facenet512", "OpenFace", "DeepFace", "DeepID", "ArcFace", "Dlib", "SFace"]
+metrics = ["cosine", "euclidean", "euclidean_l2"]
 
-# Abre a webcam
-cap = cv2.VideoCapture(0)
+def realtime_face_recognition():
+    # Define a video capture object
+    vid = cv2.VideoCapture(0)
 
-while True:
-    # Lê o frame da webcam
-    ret, frame = cap.read()
+    while True:
+        # Capture the video frame by frame
+        ret, frame = vid.read()
 
-    # Converte o frame para escala de cinza
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        # Perform face recognition on the captured frame
+        # Find faces and identify people using a specific model and distance metric
+        people = DeepFace.find(img_path=frame, db_path="Data/", model_name=models[2], distance_metric=metrics[2], enforce_detection=False)
 
-    # Detecta faces no frame
-    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+        for person in people:
+            try:
+                # Retrieve the coordinates of the face bounding box
+                x = person['source_x'][0]
+                y = person['source_y'][0]
+                w = person['source_w'][0]
+                h = person['source_h'][0]
 
-    # Desenha retângulos ao redor das faces detectadas
-    for (x, y, w, h) in faces:
-        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                # Draw a rectangle around the face
+                cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
-        # Salva a face detectada com um nome e formato de arquivo específico
-        face_name = "new_face"
-        face_file = f"{face_name}.jpg"  # or f"{face_name}.png"
-        cv2.imwrite(face_file, frame[y:y+h, x:x+w])
+                # Get the person's name and display it on the image
+                name = person['identity'][0].split('/')[1]
+                cv2.putText(frame, name, (x, y), cv2.FONT_ITALIC, 1, (0, 0, 255), 2)
+            except:
+                print("Face not detected")
+                pass
+        # Display the resulting frame
+        cv2.namedWindow('frame', cv2.WINDOW_NORMAqwL)
+        cv2.resizeWindow('frame', 960, 720)
+        cv2.imshow('frame', frame)
 
-    # Exibe o frame com as faces detectadas
-    cv2.imshow('Detecção de Faces', frame)
+        # Check if the 'q' button is pressed to quit the program
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
 
-    # Interrompe o loop se a tecla 'q' for pressionada
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+    # Release the video capture object and close all windows
+    vid.release()
+    cv2.destroyAllWindows()
 
-# Libera a webcam e fecha a janela
-cap.release()
-cv2.destroyAllWindows()
+# Perform real-time face recognition using the webcam
+realtime_face_recognition()
