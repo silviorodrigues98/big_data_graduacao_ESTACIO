@@ -80,4 +80,3 @@ def reconhecimento_facial_tempo_real():
 # Realizar o reconhecimento facial em tempo real usando a webcam
 configurar_log()
 registrar_log("Sistema de reconhecimento facial iniciado.")
-reconhecimento_facial_tempo_real()

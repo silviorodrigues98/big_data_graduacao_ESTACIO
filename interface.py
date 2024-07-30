@@ -1,8 +1,9 @@
 import tkinter as tk
+import detect as detect
 
-def start_recognition():
-    # Add your code here to start the recognition process
-    pass
+def iniciarDeteccao():
+    window.destroy()
+    detect.reconhecimento_facial_tempo_real()
 
 # Create the main window
 window = tk.Tk()
@@ -11,7 +12,7 @@ window = tk.Tk()
 window.geometry("800x600")
 
 # Create a button to start the recognition
-start_button = tk.Button(window, text="INICIAR RECONHECIMENTO", command=start_recognition)
+start_button = tk.Button(window, text="INICIAR RECONHECIMENTO", command=iniciarDeteccao)
 
 # Place the button at the middle vertically and horizontally
 start_button.pack(anchor=tk.CENTER, expand=True)
