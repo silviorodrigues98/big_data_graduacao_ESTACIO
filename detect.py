@@ -63,9 +63,9 @@ def reconhecimento_facial_tempo_real():
                 pass
         
         # Exibir o quadro resultante
-        cv2.namedWindow('quadro', cv2.WINDOW_NORMAL)
-        cv2.resizeWindow('quadro', 640, 480)
-        cv2.imshow('quadro', quadro)
+        cv2.namedWindow('RECONHECIMENTO FACIAL', cv2.WINDOW_NORMAL)
+        cv2.resizeWindow('RECONHECIMENTO FACIAL', 640, 480)
+        cv2.imshow('RECONHECIMENTO FACIAL', quadro)
 
         # Verificar se o botão 'q' foi pressionado para sair do programa
         if cv2.waitKey(100) & 0xFF == ord('q'):
@@ -80,3 +80,4 @@ def reconhecimento_facial_tempo_real():
 # Realizar o reconhecimento facial em tempo real usando a webcam
 configurar_log()
 registrar_log("Sistema de reconhecimento facial iniciado.")
+reconhecimento_facial_tempo_real()

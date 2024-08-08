@@ -613,3 +613,225 @@
 2024-07-29 22:53:49,172 - INFO - Rosto identificado: eu.jpg
 2024-07-29 22:53:49,173 - INFO - Encerrando captura de vídeo.
 2024-07-29 22:53:49,490 - INFO - Sistema de reconhecimento facial encerrado.
+2024-08-07 21:08:59,529 - INFO - Sistema de reconhecimento facial iniciado.
+2024-08-07 21:09:36,104 - INFO - Sistema de reconhecimento facial iniciado.
+2024-08-07 21:10:16,103 - INFO - Sistema de reconhecimento facial iniciado.
+2024-08-07 21:10:16,553 - INFO - Captura de vídeo iniciada.
+2024-08-07 21:10:23,565 - INFO - 1 rostos detectados.
+2024-08-07 21:10:23,565 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:24,094 - INFO - 1 rostos detectados.
+2024-08-07 21:10:24,094 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:24,582 - INFO - 1 rostos detectados.
+2024-08-07 21:10:24,582 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:25,170 - INFO - 1 rostos detectados.
+2024-08-07 21:10:25,170 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:25,703 - INFO - 1 rostos detectados.
+2024-08-07 21:10:25,703 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:26,272 - INFO - 1 rostos detectados.
+2024-08-07 21:10:26,272 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:26,819 - INFO - 1 rostos detectados.
+2024-08-07 21:10:26,820 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:27,393 - INFO - 1 rostos detectados.
+2024-08-07 21:10:27,394 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:27,988 - INFO - 1 rostos detectados.
+2024-08-07 21:10:27,988 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:28,569 - INFO - 1 rostos detectados.
+2024-08-07 21:10:28,570 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:29,158 - INFO - 1 rostos detectados.
+2024-08-07 21:10:29,159 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:29,763 - INFO - 1 rostos detectados.
+2024-08-07 21:10:29,764 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:30,335 - INFO - 1 rostos detectados.
+2024-08-07 21:10:30,336 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:30,942 - INFO - 1 rostos detectados.
+2024-08-07 21:10:30,943 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:31,512 - INFO - 1 rostos detectados.
+2024-08-07 21:10:31,514 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:10:32,139 - INFO - 1 rostos detectados.
+2024-08-07 21:10:32,140 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:10:32,755 - INFO - 1 rostos detectados.
+2024-08-07 21:10:32,756 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:10:33,395 - INFO - 1 rostos detectados.
+2024-08-07 21:10:33,395 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:10:34,027 - INFO - 1 rostos detectados.
+2024-08-07 21:10:34,027 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:34,621 - INFO - 1 rostos detectados.
+2024-08-07 21:10:34,621 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:35,208 - INFO - 1 rostos detectados.
+2024-08-07 21:10:35,208 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:35,798 - INFO - 1 rostos detectados.
+2024-08-07 21:10:35,799 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:36,379 - INFO - 1 rostos detectados.
+2024-08-07 21:10:36,379 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:36,973 - INFO - 1 rostos detectados.
+2024-08-07 21:10:36,973 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:37,553 - INFO - 1 rostos detectados.
+2024-08-07 21:10:37,554 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:38,154 - INFO - 1 rostos detectados.
+2024-08-07 21:10:38,154 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:38,747 - INFO - 1 rostos detectados.
+2024-08-07 21:10:38,747 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:39,326 - INFO - 1 rostos detectados.
+2024-08-07 21:10:39,326 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:39,921 - INFO - 1 rostos detectados.
+2024-08-07 21:10:39,922 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:40,529 - INFO - 1 rostos detectados.
+2024-08-07 21:10:40,530 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:41,126 - INFO - 1 rostos detectados.
+2024-08-07 21:10:41,127 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:41,712 - INFO - 1 rostos detectados.
+2024-08-07 21:10:41,712 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:42,283 - INFO - 1 rostos detectados.
+2024-08-07 21:10:42,284 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:42,864 - INFO - 1 rostos detectados.
+2024-08-07 21:10:42,865 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:43,422 - INFO - 1 rostos detectados.
+2024-08-07 21:10:43,422 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:44,006 - INFO - 1 rostos detectados.
+2024-08-07 21:10:44,007 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:44,599 - INFO - 1 rostos detectados.
+2024-08-07 21:10:44,599 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:45,178 - INFO - 1 rostos detectados.
+2024-08-07 21:10:45,179 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:45,751 - INFO - 1 rostos detectados.
+2024-08-07 21:10:45,751 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:46,325 - INFO - 1 rostos detectados.
+2024-08-07 21:10:46,325 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:46,929 - INFO - 1 rostos detectados.
+2024-08-07 21:10:46,930 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:47,511 - INFO - 1 rostos detectados.
+2024-08-07 21:10:47,511 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:48,105 - INFO - 1 rostos detectados.
+2024-08-07 21:10:48,105 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:48,698 - INFO - 1 rostos detectados.
+2024-08-07 21:10:48,698 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:49,331 - INFO - 1 rostos detectados.
+2024-08-07 21:10:49,331 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:49,945 - INFO - 1 rostos detectados.
+2024-08-07 21:10:49,947 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:50,550 - INFO - 1 rostos detectados.
+2024-08-07 21:10:50,550 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:51,112 - INFO - 1 rostos detectados.
+2024-08-07 21:10:51,113 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:51,703 - INFO - 1 rostos detectados.
+2024-08-07 21:10:51,703 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:52,596 - INFO - 1 rostos detectados.
+2024-08-07 21:10:52,597 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:53,193 - INFO - 1 rostos detectados.
+2024-08-07 21:10:53,193 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:10:53,195 - INFO - Encerrando captura de vídeo.
+2024-08-07 21:10:53,561 - INFO - Sistema de reconhecimento facial encerrado.
+2024-08-07 21:12:05,053 - INFO - Sistema de reconhecimento facial iniciado.
+2024-08-07 21:12:05,466 - INFO - Captura de vídeo iniciada.
+2024-08-07 21:12:12,255 - INFO - 1 rostos detectados.
+2024-08-07 21:12:12,256 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:12,875 - INFO - 1 rostos detectados.
+2024-08-07 21:12:12,875 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:13,348 - INFO - 1 rostos detectados.
+2024-08-07 21:12:13,348 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:13,881 - INFO - 1 rostos detectados.
+2024-08-07 21:12:13,881 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:14,429 - INFO - 1 rostos detectados.
+2024-08-07 21:12:14,430 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:15,026 - INFO - 1 rostos detectados.
+2024-08-07 21:12:15,027 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:15,621 - INFO - 1 rostos detectados.
+2024-08-07 21:12:15,621 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:16,215 - INFO - 1 rostos detectados.
+2024-08-07 21:12:16,215 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:16,759 - INFO - 1 rostos detectados.
+2024-08-07 21:12:16,759 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:17,330 - INFO - 1 rostos detectados.
+2024-08-07 21:12:17,330 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:17,909 - INFO - 1 rostos detectados.
+2024-08-07 21:12:17,909 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:18,473 - INFO - 1 rostos detectados.
+2024-08-07 21:12:18,474 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:19,046 - INFO - 1 rostos detectados.
+2024-08-07 21:12:19,046 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:19,645 - INFO - 1 rostos detectados.
+2024-08-07 21:12:19,645 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:20,250 - INFO - 1 rostos detectados.
+2024-08-07 21:12:20,250 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:20,797 - INFO - 1 rostos detectados.
+2024-08-07 21:12:20,798 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:21,372 - INFO - 1 rostos detectados.
+2024-08-07 21:12:21,373 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:21,908 - INFO - 1 rostos detectados.
+2024-08-07 21:12:21,909 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:22,513 - INFO - 1 rostos detectados.
+2024-08-07 21:12:22,513 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:23,074 - INFO - 1 rostos detectados.
+2024-08-07 21:12:23,075 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:23,625 - INFO - 1 rostos detectados.
+2024-08-07 21:12:23,625 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:24,194 - INFO - 1 rostos detectados.
+2024-08-07 21:12:24,195 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:24,780 - INFO - 1 rostos detectados.
+2024-08-07 21:12:24,780 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:25,348 - INFO - 1 rostos detectados.
+2024-08-07 21:12:25,348 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:25,920 - INFO - 1 rostos detectados.
+2024-08-07 21:12:25,920 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:26,475 - INFO - 1 rostos detectados.
+2024-08-07 21:12:26,475 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:27,032 - INFO - 1 rostos detectados.
+2024-08-07 21:12:27,032 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:27,608 - INFO - 1 rostos detectados.
+2024-08-07 21:12:27,609 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:28,184 - INFO - 1 rostos detectados.
+2024-08-07 21:12:28,184 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:28,772 - INFO - 1 rostos detectados.
+2024-08-07 21:12:28,773 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:29,335 - INFO - 1 rostos detectados.
+2024-08-07 21:12:29,335 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:29,915 - INFO - 1 rostos detectados.
+2024-08-07 21:12:29,917 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:30,492 - INFO - 1 rostos detectados.
+2024-08-07 21:12:30,493 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:31,055 - INFO - 1 rostos detectados.
+2024-08-07 21:12:31,055 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:31,611 - INFO - 1 rostos detectados.
+2024-08-07 21:12:31,612 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:32,180 - INFO - 1 rostos detectados.
+2024-08-07 21:12:32,180 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:32,740 - INFO - 1 rostos detectados.
+2024-08-07 21:12:32,741 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:33,310 - INFO - 1 rostos detectados.
+2024-08-07 21:12:33,311 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:33,891 - INFO - 1 rostos detectados.
+2024-08-07 21:12:33,891 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:34,471 - INFO - 1 rostos detectados.
+2024-08-07 21:12:34,472 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:35,051 - INFO - 1 rostos detectados.
+2024-08-07 21:12:35,052 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:35,624 - INFO - 1 rostos detectados.
+2024-08-07 21:12:35,624 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:36,210 - INFO - 1 rostos detectados.
+2024-08-07 21:12:36,210 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:36,788 - INFO - 1 rostos detectados.
+2024-08-07 21:12:36,789 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:37,341 - INFO - 1 rostos detectados.
+2024-08-07 21:12:37,341 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:37,916 - INFO - 1 rostos detectados.
+2024-08-07 21:12:37,917 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:38,481 - INFO - 1 rostos detectados.
+2024-08-07 21:12:38,481 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:39,057 - INFO - 1 rostos detectados.
+2024-08-07 21:12:39,057 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:39,629 - INFO - 1 rostos detectados.
+2024-08-07 21:12:39,630 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:40,187 - INFO - 1 rostos detectados.
+2024-08-07 21:12:40,187 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:40,773 - INFO - 1 rostos detectados.
+2024-08-07 21:12:40,773 - ERROR - Erro ao processar rosto detectado. Detalhes: 0
+2024-08-07 21:12:41,380 - INFO - 1 rostos detectados.
+2024-08-07 21:12:41,381 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:41,984 - INFO - 1 rostos detectados.
+2024-08-07 21:12:41,985 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:42,593 - INFO - 1 rostos detectados.
+2024-08-07 21:12:42,594 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:43,198 - INFO - 1 rostos detectados.
+2024-08-07 21:12:43,199 - INFO - Rosto identificado: eu.jpg
+2024-08-07 21:12:43,200 - INFO - Encerrando captura de vídeo.
+2024-08-07 21:12:43,568 - INFO - Sistema de reconhecimento facial encerrado.
