@@ -1,5 +1,2 @@
 deepface
-numpy
-pandas
-opencv-python
-matplotlib
+opencv-python-headless
