@@ -1,2 +1,2 @@
 deepface
-opencv-python-headless
+opencv-python[GUI]
